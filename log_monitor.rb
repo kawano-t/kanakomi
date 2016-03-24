@@ -106,9 +106,9 @@ begin
         		if ( /#{str}/ =~ $_ )
                			log_file.puts datetime + "*** MATCH : " + $_
                                 mail = Mail.new do
-                                    to 'tadaakikawano@gmail.com'
-                                    from 'mail@kanakomi.com'
-                                    subject 'Sakuraログイン検知'
+                                    to MAILTO
+                                    from MAILFROM
+                                    subject 'ログイン検知'
                                     body $_
                                 end
                                 mail.charset = 'utf-8' 
@@ -134,6 +134,3 @@ ensure
     exit!
 end
 
-###adhsjdhajh
-#ikjdisj
-asd
