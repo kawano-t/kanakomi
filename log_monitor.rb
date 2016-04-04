@@ -26,7 +26,8 @@ datetime.chomp!
         exit!
     end
 
-ccccccccccccccccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaburyuyruyruyruyruyruyruyruryuryuryur
+ddddd
+
 
 ##ログ出力文字列定義
 def usage()
